@@ -1,0 +1,45 @@
+h2 {
+    font-size: 30px;
+    font-family: "Arial",cursive;
+}
+
+#uusi {
+	margin:5px;
+	padding:20px;
+	background-color:black;
+    color: white;
+	width:500px;
+    font-family: "Arial";
+}
+
+button {
+    font-family: "Arial";
+    background-color:darksalmon;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+#lista {
+	margin:5px;
+	padding:20px;
+	background-color:#FFF;
+	width:500px;
+	border:1px #999999 solid;
+    text-align: center;
+    font-family: "Arial";
+}
+
+
+td {
+	background-color:bisque;
+    border: 1px solid #999999;
+    padding: 4px;
+    margin: 5px;
+    
+}

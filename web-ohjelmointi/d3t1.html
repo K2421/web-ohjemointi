@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ostoslista</title>
+        <link rel="stylesheet" href="d3t1.css"/>
+    </head>
+
+    <body onload="init();">
+        <div id="uusi">
+            <h2>Ostoslista</h2>
+                Tavara: <input type="text" id="tavara"> Määrä: <input type="text" id="maara"><br><br>
+                <button onclick="addItem()">Lisää</button> <button onClick="clearShoppingList()">Tyhjennä kaikki</button>
+        </div>
+
+        <div id="lista">
+            <table id="ostosLista"/>
+        </div>
+
+        <script src="d3t1.js"></script>
+    </body>
+</html>
